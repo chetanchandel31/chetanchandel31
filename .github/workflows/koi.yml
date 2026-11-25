@@ -25,7 +25,7 @@ jobs:
           body: white
           scene: auto
           garden: islands
-          weather: rain
+          weather: auto
           output-dir: koi
       - name: Commit the koi if it changed
         shell: bash
