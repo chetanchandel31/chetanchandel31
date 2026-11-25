@@ -20,9 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: yalongwastaken/git-koi@v1
+      - uses: yafet-a/git-koi@main
         with:
           body: white
+          scene: auto
+          garden: islands
+          weather: rain
           output-dir: koi
       - name: Commit the koi if it changed
         shell: bash
